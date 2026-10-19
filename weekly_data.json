@@ -1,0 +1,48 @@
+{
+  "report": {
+    "organization": "Northstar GEO",
+    "week_label": "Week 42",
+    "deck": "A focused view of commercial momentum and client delivery.",
+    "disclaimer": "All figures and analysis on this page are fictional and illustrative.",
+    "footer_note": "Illustrative demo report only — not live operational data."
+  },
+  "summary": {
+    "heading": "This week, at a glance",
+    "facts": [
+      {"lead": "12 new leads", "detail": "— up from 9 last week."},
+      {"lead": "4 high-value opportunities", "detail": "are active in the pipeline."},
+      {"lead": "€48,000 in open pipeline", "detail": "— up from €36,000 last week."},
+      {"lead": "3 projects are approaching deadline", "detail": "and need active follow-through.", "attention": true},
+      {"lead": "Website traffic is up 18%", "detail": "week over week."},
+      {"lead": "Newsletter open rate is down 7%", "detail": "and should be watched.", "attention": true},
+      {"lead": "2 projects are overdue", "detail": "and need a reset of expectations.", "attention": true},
+      {"lead": "2 things need your attention:", "detail": "project delivery and newsletter engagement.", "attention": true}
+    ]
+  },
+  "kpis": [
+    {"label": "New leads", "value": 12, "previous": 9, "format": "integer", "change_format": "percent", "tone": ""},
+    {"label": "Sales pipeline value", "value": 48000, "previous": 36000, "format": "euro_compact", "change_format": "percent", "tone": "pipeline"},
+    {"label": "Projects at risk", "value": 3, "previous": 1, "format": "integer", "change_format": "difference", "tone": "risk"}
+  ],
+  "analysis": {
+    "heading": "A fuller pipeline, a tighter delivery picture",
+    "pipeline_title": "Sales pipeline — last 8 weeks",
+    "pipeline_subtitle": "Open opportunity value in € thousands",
+    "pipeline_caption": "Pipeline is up €30k across eight weeks, with the largest step-up occurring this week.",
+    "pipeline_series": [
+      {"week": "W35", "value": 18}, {"week": "W36", "value": 22},
+      {"week": "W37", "value": 20}, {"week": "W38", "value": 27},
+      {"week": "W39", "value": 29}, {"week": "W40", "value": 35},
+      {"week": "W41", "value": 37}, {"week": "W42", "value": 48}
+    ],
+    "status_title": "Client project status",
+    "status_caption": "Five of 12 active projects require intervention or a reset of expectations.",
+    "status_counts": {"on_track": 7, "at_risk": 3, "overdue": 2}
+  },
+  "recommendations_heading": "Three grounded priorities for the week",
+  "recommendations": [
+    {"title": "Run a 30-minute recovery review for the three at-risk projects.", "body": "Confirm the blocker, owner, and next client-facing milestone for each; escalate any capacity issue now."},
+    {"title": "Protect delivery capacity before adding new work.", "body": "Hold two short blocks for high-priority client execution and only commit new starts after the project review."},
+    {"title": "Follow up with the highest-value open opportunities.", "body": "Prioritise the €18k of pipeline closest to a decision and agree a concrete next step with each prospect."}
+  ]
+}
